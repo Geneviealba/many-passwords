@@ -36,7 +36,7 @@ I also use querySelector to assign code for the HTML file.
 I use the "for statement" to create a loop to execute.
 
 ## Creating a repository
-I went into my GitHub account and created a new repository named "Code-Refactor-02Homework
+I went into my GitHub account and created a new repository named "many-passwords"
 Then I uploaded all my files, such as readme, HTML, and CSS.
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
