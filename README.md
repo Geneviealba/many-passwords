@@ -1,19 +1,9 @@
-# 03 JavaScript: Password Generator
+## The purpose of this page 
 
-## Your Task
-
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
-
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
-
-## User Story
 
 ```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+The users are concerned about protecting their sensitive data, so the page is created to randomly generate passwords between 8 to 128 characters, including special characters and numbers. 
 ```
-
 ## Acceptance Criteria
 
 ```
@@ -33,60 +23,21 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+## The steps I took in figuring what codes to write 
+First, I console.log, ensuring the "function generatePassword" was working. 
+When I console.log, I was given an undefine response. 
+Next Step, I analyzed the acceptance criteria step by Step as I wrote my codes. 
+I used the Javascript file to make all the changes to meet the acceptance criteria. 
 
-## Mock-Up
+## Writing my codes
+Created variables in the Javascript 
+I used "if statement" to execute if a statement is true or false.  
+I also use querySelector to assign code for the HTML file. 
+I use the "for statement" to create a loop to execute.
 
-The following image shows the web application's appearance and functionality:
+## Creating a repository
+I went into my GitHub account and created a new repository named "Code-Refactor-02Homework
+Then I uploaded all my files, such as readme, HTML, and CSS.
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
